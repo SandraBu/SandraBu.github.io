@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+	height: 100px;
+	background-color: purple;
+	display: flex;
+	border-radius: 20px;
+}
+header .box {
+       width: 100px;
+       flex-grow: 1;
+       background-color: yellow;
+       margin: 10px;
+       border: 1px bottom black;
+       border-radius: 20px;
+}
+header .box:hover {
+     background-color: #98f5eb;
+     border: 1px bottom black;
+     border-radius: 20px;
+   }
+header .box a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 30px;
+}
+header {
+	height: 100px;
+	background-color: purple;
+	display: flex;
+	position: sticky;
+	top: 0;
+	left: 0; 
+} 
